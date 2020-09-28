@@ -49,3 +49,16 @@ nav .links a {
     font-weight: bold;
     color: white;
 }
+nav .icon-burger {
+    position: absolute;
+    right: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+nav .icon-burger .line{
+    width: 30px;
+    height: 5px;
+    background-color: white;
+    margin: 5px;
+    border-radius: 3px;
+}
