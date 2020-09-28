@@ -19,6 +19,7 @@ nav {
     background-color: #3e65da;
     height: 100px;
     font-family: 'Montserrat', sans-serif;
+    padding: 0 5%;
 }
 nav .logo {
     float: left;
