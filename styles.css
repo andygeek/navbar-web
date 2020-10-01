@@ -70,7 +70,20 @@ nav .icon-burger .line{
         justify-content: center;
     }
     nav .links {
-        display: none;
+        float: none;
+        position: fixed;
+        z-index: 0;
+        left: 0;
+        right: 0;
+        top: 100px;
+        bottom: 0;
+        width: auto;
+        height: auto;
+        flex-direction: column;
+        background-color: rgba(0,0,0,.8);
+    }
+    nav .links a{
+        font-size: 20px;
     }
     nav .icon-burger {
         display: block;
