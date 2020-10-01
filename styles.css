@@ -63,6 +63,9 @@ nav .icon-burger .line{
     margin: 5px;
     border-radius: 3px;
 }
+#nav-toggle{
+    position: absolute;
+}
 @media screen and (max-width: 768px) {
     nav .logo {
         float: none;
@@ -76,16 +79,20 @@ nav .icon-burger .line{
         left: 0;
         right: 0;
         top: 100px;
-        bottom: 0;
+        bottom: 100%;
         width: auto;
         height: auto;
         flex-direction: column;
         background-color: rgba(0,0,0,.8);
+        overflow: hidden;
     }
     nav .links a{
         font-size: 20px;
     }
     nav .icon-burger {
         display: block;
+    }
+    nav :checked ~ .links{
+        bottom: 0;
     }
 }
